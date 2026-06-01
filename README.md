@@ -3,7 +3,7 @@
 - Número da Lista: 8
 - Conteúdo da Disciplina: Dividir e Conquistar
 
-LINK DO VÍDEO DE APRESENTAÇÃO:
+LINK DO VÍDEO DE APRESENTAÇÃO: https://youtu.be/2PTx-EsxJtc
 
 ## Alunos
 | Matricula | Aluno |
@@ -29,6 +29,7 @@ No problema clássico, a busca procura o menor par entre quaisquer dois pontos d
 ### Pre-requisitos
 - Windows ou Linux.
 - Python 3.
+- NodeJS.
 
 ### Como rodar o projeto
 Como o projeto usa ES Modules, execute por um servidor local simples:
@@ -41,6 +42,10 @@ Depois abra:
 
 ```text
 http://localhost:8000
+```
+ou 
+```text
+http://127.0.0.1:8000/
 ```
 
 Também é possível usar qualquer servidor estático equivalente.
