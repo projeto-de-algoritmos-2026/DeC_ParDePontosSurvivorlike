@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Par de Pontos: Mira Automática</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="layoutPrincipal">
+      <section class="areaJogo" aria-label="Área do jogo">
+        <canvas id="canvasJogo"></canvas>
+      </section>
+
+      <aside class="painelAlgoritmo" aria-label="Painel do algoritmo">
+        <h1>Detecção do Inimigo Mais Próximo</h1>
+
+        <dl class="gradeDados">
+          <dt>Coordenadas Player</dt>
+          <dd id="posicaoJogador">x: 0, y: 0</dd>
+
+          <dt>Coordenadas Inimigo</dt>
+          <dd id="coordenadasInimigo">-</dd>
+
+          <dt>Divisões recursivas</dt>
+          <dd id="divisoesRecursivas">0</dd>
+
+          <dt>Comparações na faixa</dt>
+          <dd id="comparacoesFaixa">0</dd>
+
+          <dt>Pares inválidos descartados</dt>
+          <dd id="paresInvalidos">0</dd>
+        </dl>
+
+        <section class="secaoPainel">
+          <h2>Distâncias analisadas</h2>
+          <ul id="listaDistancias" class="listaDistancias"></ul>
+        </section>
+      </aside>
+    </main>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
